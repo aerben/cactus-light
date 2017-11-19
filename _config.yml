@@ -1,16 +1,12 @@
 nav:
   Home: /
-  About: /about/
-  Writing: /archives/
-  Projects: http://github.com/gabithume
-
-projects_url: http://github.com/gabithume
+  Archives: /archives/
 
 customize:
     gravatar:
         email:
     logo:
-        enabled: true
+        enabled: false
         width: 50
         height: 50
         url: /images/logo.png
@@ -27,13 +23,13 @@ customize:
         url: /images/apple-touch-icon.png
         gravator: false
     social_links:
-        github: http://github.com/gabithume/cactus-light
-        twitter: /
-        facebook: /
-        linkedin: /
+        github: https://github.com/aerben
+        linkedin: https://www.linkedin.com/in/alexander-erben-25464713a/
+        xing: https://www.xing.com/profile/Alexander_Erben4
     show_all_posts: false
-    post_count: 5
+    post_count: 10
     highlight: monokai
+
 
 # RSS
 rss: false
