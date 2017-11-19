@@ -3,14 +3,21 @@
 
     <div id="nav-footer" style="display: none">
       <ul>
-        <% for (var i in theme.nav) { %> 
+        <% for (var i in theme.nav) { %>
           <li><a href="<%- url_for(theme.nav[i]) %>"><%= i %></a></li>
         <% } %>
       </ul>
     </div>
 
     <div id="toc-footer" style="display: none">
-      <%- toc(page.content) %>
+      <ol>
+          <ol>
+            <li class="toc-item toc-level-2"><a class="toc-link" href="#"> Start</a></li>
+          </ol>
+          <li>
+          <%- toc(page.content) %>
+          </li>
+      </ol>
     </div>
 
     <div id="share-footer" style="display: none">
