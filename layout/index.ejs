@@ -27,6 +27,9 @@
         <%- partial('_partial/post/date', { post: post, class_name: 'meta' }) %>
         <span><%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %></span>
       </li>
+      <li class="desc-item">
+          <span><%- partial('_partial/post/desc', { post: post, index: true, class_name: '' }) %></span>
+      </li>
     <% }); %>
   </ul>
   <% if (theme.customize.show_all_posts) { %>
