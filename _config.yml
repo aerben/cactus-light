@@ -1,6 +1,7 @@
 nav:
   Home: /
   Archives: /archives/
+  Imprint: /imprint/
 
 customize:
     gravatar:
