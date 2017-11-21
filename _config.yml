@@ -7,7 +7,7 @@ customize:
     gravatar:
         email:
     logo:
-        enabled: true
+        enabled: false
         width: 50
         height: 50
         url: /images/favicon.png
