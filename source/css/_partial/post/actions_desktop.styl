@@ -98,7 +98,7 @@
       font-size: 0.8rem
       color: $color-text
       &:before
-        content: "#"
+        content: ">"
         color: $color-accent
     .toc-level-3
       font-size: 0.7rem
@@ -152,3 +152,9 @@
         margin-right: 2rem
         font-style: italic
         display: inline
+
+@media print
+  #header-post
+    display: none
+  #footer-post
+    display: none

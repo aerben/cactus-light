@@ -37,7 +37,7 @@ rss: false
 
 # Plugins
 plugins:
-    disqus_shortname: # Disqus Comments Shortname
+    disqus_shortname: aerben-me
     google_analytics: UA-109898944-1
 
 # Miscellaneous

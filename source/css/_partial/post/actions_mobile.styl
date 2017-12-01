@@ -92,7 +92,7 @@
       font-size: 0.8rem
       color: $color-text
       &:before
-        content: "#"
+        content: ">"
         color: $color-accent
     .toc-level-3
       font-size: 0.7rem
@@ -110,4 +110,11 @@
 
 @media screen and (min-width:500px)
   #footer-post-container
+    display: none
+
+
+@media print
+  #header-post
+    display: none
+  #footer-post
     display: none
